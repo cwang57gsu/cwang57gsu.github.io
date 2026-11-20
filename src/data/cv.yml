@@ -1,129 +1,66 @@
-# RenderCV YAML format — https://docs.rendercv.com/
-# Used by the CV page when site.cv.format is 'rendercv'.
-
 cv:
-  name: Albert Einstein
-  location: Princeton, NJ
-  email: einstein@example.com
-  phone: tel:+1-000-000-0000
-  website: https://example.github.io
-  summary: A German-born theoretical physicist widely regarded as one of the greatest scientists of all time. Best known for developing the theory of relativity, the most important pillar along with quantum mechanics of modern physics.
-  social_networks:
-    - network: GitHub
-      username: example
-    - network: LinkedIn
-      username: example
-
+  name: Chao Wang
+  label: Ph.D. Student in Computer Science
+  email: cwang57@gsu.edu
+  location: Atlanta, GA, USA
   sections:
     education:
-      - institution: University of Zurich
-        area: Physics
-        degree: PhD
-        start_date: 1900
-        end_date: 1905
-        highlights:
-          - 'Thesis: "A New Determination of Molecular Dimensions"'
-          - 'Supervisor: Alfred Kleiner'
-
-      - institution: ETH Zurich
-        area: Mathematics and Physics Teaching Diploma
-        degree: Diploma
-        start_date: 1896
-        end_date: 1900
-
-    experience:
-      - company: Institute for Advanced Study
-        position: Professor
-        location: Princeton, NJ
-        start_date: 1933
-        end_date: present
-        highlights:
-          - Developed unified field theory research program
-          - Mentored generations of physicists and mathematicians
-          - Contributed to foundations of quantum mechanics debates
-
-      - company: University of Berlin
-        position: Professor and Director
-        location: Berlin, Germany
-        start_date: 1914
-        end_date: 1933
-        highlights:
-          - Developed the general theory of relativity (1915)
-          - Predicted gravitational waves and black holes
-          - Awarded Nobel Prize in Physics (1921)
-
-      - company: University of Zurich
-        position: Associate Professor
-        location: Zurich, Switzerland
-        start_date: 1909
-        end_date: 1911
-
-      - company: Swiss Patent Office
-        position: Technical Expert (Third Class)
-        location: Bern, Switzerland
-        start_date: 1902
-        end_date: 1909
-        highlights:
-          - Evaluated patent applications while conducting independent research
-          - Published four landmark papers in 1905 (Annus Mirabilis)
-
-    publications:
-      - title: 'On the Electrodynamics of Moving Bodies'
-        authors:
-          - Albert Einstein
-        doi: 10.1002/andp.19053221004
-        date: 1905-06
-        journal: Annalen der Physik
-
-      - title: 'Does the Inertia of a Body Depend Upon Its Energy Content?'
-        authors:
-          - Albert Einstein
-        doi: 10.1002/andp.19053231314
-        date: 1905-09
-        journal: Annalen der Physik
-
-      - title: 'Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?'
-        authors:
-          - Albert Einstein
-          - Boris Podolsky
-          - Nathan Rosen
-        doi: 10.1103/PhysRev.47.777
-        date: 1935-05
-        journal: Physical Review
-
-      - title: 'On the General Theory of Relativity'
-        authors:
-          - Albert Einstein
-        date: 1915-11
-        journal: Prussian Academy of Sciences
-
+    - institution: Georgia State University
+      area: Computer Science
+      studyType: Ph.D.
+      startDate: '2024-08-01'
+      endDate: present
+      highlights:
+      - 'GPA: 3.81/4.00'
+      - 'Advisor: Dr. Xiaojun Cao'
+    - institution: Southwest Jiaotong University
+      area: Computer Science and Technology
+      studyType: B.Eng.
+      startDate: '2020-09-01'
+      endDate: '2024-06-01'
+      highlights:
+      - 'GPA: 3.60/4.00'
     awards:
-      - name: Nobel Prize in Physics
-        date: '1921'
-        issuer: Royal Swedish Academy of Sciences
-        highlights:
-          - 'For services to theoretical physics, and especially for his discovery of the law of the photoelectric effect'
-
-      - name: Copley Medal
-        date: '1925'
-        issuer: Royal Society
-
-      - name: Max Planck Medal
-        date: '1929'
-        issuer: German Physical Society
-
-    skills:
-      - label: Theoretical Physics
-        details: General Relativity, Special Relativity, Quantum Mechanics, Statistical Mechanics
-      - label: Mathematics
-        details: Differential Geometry, Tensor Calculus, Riemannian Geometry
-      - label: Languages
-        details: German (native), English (fluent), French (proficient)
-
-    interests:
-      - label: Music
-        details: Violin, Mozart, Bach
-      - label: Philosophy
-        details: Spinoza, Mach, Kant
-      - label: Sailing
-        details: Long Island Sound, Swiss lakes
+    - title: Dean's Graduate Research Grant
+      awarder: College of Arts & Sciences, Georgia State University
+      date: '2027'
+    - title: Dean's Graduate Research Grant
+      awarder: College of Arts & Sciences, Georgia State University
+      date: '2026'
+    - title: Brains & Behavior Fellowship
+      awarder: Neuroscience Institute, Georgia State University
+      date: 2025–Present
+    - title: National Inspirational Scholarship
+      awarder: China
+    - title: Provincial Second Prize, National College Student Mathematics Contest
+    - title: Provincial First Prize, National College Student Market Survey and Analysis Contest
+    - title: National Third Prize, National College Student Transportation Technology Contest
+    experience:
+    - company: Georgia State University
+      position: Graduate Teaching Assistant, CSC 8220 Advanced Computer Networks
+      startDate: '2026-08-01'
+      endDate: present
+    - company: Georgia State University
+      position: Graduate Teaching Assistant, CSC 3320 System Level Programming
+      startDate: '2026-06-01'
+      endDate: '2026-08-01'
+    - company: Georgia State University
+      position: Graduate Teaching Assistant, CSC 6331 Cloud Computing
+      startDate: '2026-01-01'
+      endDate: '2026-05-01'
+    - company: Georgia State University
+      position: Instructor, CSC 2510 Theoretical Foundations of Computer Science
+      startDate: '2025-08-01'
+      endDate: '2025-12-01'
+    - company: Georgia State University
+      position: Graduate Teaching Assistant, CSC 6320 Operating Systems
+      startDate: '2025-06-01'
+      endDate: '2025-08-01'
+    - company: Georgia State University
+      position: Lab Instructor, CSC 1302 Principles of Computer Science II
+      startDate: '2025-01-01'
+      endDate: '2025-05-01'
+    - company: Georgia State University
+      position: Graduate Teaching Assistant, CSC 6222 Fundamentals of Cybersecurity
+      startDate: '2024-08-01'
+      endDate: '2024-12-01'
