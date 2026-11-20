@@ -32,10 +32,10 @@ export const site = {
   // ─── Identity ──────────────────────────────────────────────────────────────
 
   /** Site title. Shown in the browser tab and navbar. */
-  title: 'Albert Einstein',
+  title: 'Chao Wang',
 
   /** Site description. Used in meta tags. */
-  description: 'A simple, clean, and responsive Astro template for academics. Powered by as-folio.',
+  description: 'Chao Wang | Computer Science Ph.D. student at Georgia State University | Network and AI systems research',
 
   /** Language code for the site. */
   lang: 'en',
@@ -44,30 +44,25 @@ export const site = {
 
   author: {
     /** Full name shown in navbar, about page heading, and footer. */
-    name: 'Albert Einstein',
+    name: 'Chao Wang',
 
     /** Short email address (used in social links). */
-    email: 'einstein@example.com',
+    email: 'cwang57@gsu.edu',
 
     /** Path to profile photo. Place image in public/assets/img/. */
-    avatar: '/assets/img/prof_pic.jpg',
+    avatar: '/assets/img/chao-avatar.svg',
 
     /**
      * Subtitle below your name on the about page.
      * HTML is supported.
      */
-    subtitle: `Theoretical Physicist
-      &nbsp;·&nbsp;
-      <a href="https://en.wikipedia.org/wiki/Institute_for_Advanced_Study">Institute for Advanced Study</a>,
-      Princeton`,
+    subtitle: `Ph.D. Student in Computer Science &nbsp;·&nbsp; <a href="https://www.gsu.edu/">Georgia State University</a>`,
 
     /**
      * Address block below profile photo.
      * HTML is supported.
      */
-    moreInfo: `<p>Institute for Advanced Study</p>
-      <p>Einstein Drive</p>
-      <p>Princeton, NJ 08540</p>`,
+    moreInfo: `<p>Department of Computer Science</p><p>Georgia State University</p><p>Atlanta, GA, USA</p>`,
   },
 
   // ─── Social links ──────────────────────────────────────────────────────────
@@ -79,16 +74,16 @@ export const site = {
   //   bluesky_handle, medium_username, cv_pdf, rss_icon
 
   socials: {
-    email: 'einstein@example.com',
+    email: 'cwang57@gsu.edu',
     x_username: undefined as string | undefined,
     linkedin_username: undefined as string | undefined,
-    github_username: undefined as string | undefined,
+    github_username: 'cwang57gsu',
     gitlab_username: undefined as string | undefined,
     /** Google Scholar user ID — the part after user= in your Scholar URL */
-    scholar_userid: 'qc6CJjYAAAAJ',
+    scholar_userid: 'YeoQRX0AAAAJ',
     orcid_id: undefined as string | undefined,
     /** Inspire HEP author ID */
-    inspire_id: '1010907',
+    inspire_id: undefined as string | undefined,
     researchgate_username: undefined as string | undefined,
     arxiv_id: undefined as string | undefined,
     youtube_id: undefined as string | undefined,
@@ -97,9 +92,9 @@ export const site = {
     bluesky_handle: undefined as string | undefined,
     medium_username: undefined as string | undefined,
     /** Path to CV PDF in public/assets/pdf/ */
-    cv_pdf: '/assets/pdf/example_pdf.pdf',
+    cv_pdf: '/assets/pdf/Chao_Wang_CV.pdf',
     /** Show RSS icon in social links */
-    rss_icon: true,
+    rss_icon: false,
   },
 
   // ─── Navigation ────────────────────────────────────────────────────────────
@@ -166,15 +161,15 @@ export const site = {
      */
     format: 'rendercv' as 'rendercv' | 'jsonresume',
     /** Path to CV PDF for the download button in public/assets/pdf/. */
-    pdfPath: '/assets/pdf/example_pdf.pdf',
+    pdfPath: '/assets/pdf/Chao_Wang_CV.pdf',
   },
 
   // ─── Blog ──────────────────────────────────────────────────────────────────
 
   blog: {
     /** Name shown in the blog page heading. */
-    name: 'as-folio',
-    description: 'A simple, clean, and responsive Astro template for academics.',
+    name: 'Chao Wang',
+    description: 'Academic updates and research notes.',
     /** Number of posts per page. */
     postsPerPage: 5,
     /**
@@ -328,7 +323,7 @@ export const site = {
      * Set to a calendar address like 'user@gmail.com' to show the embed.
      * Leave empty string to hide the calendar section entirely.
      */
-    calendarId: 'test@gmail.com' as string,
+    calendarId: '' as string,
     /** Timezone for the Google Calendar embed (e.g., 'America/New_York'). */
     timezone: 'America/New_York' as string,
   },
@@ -350,7 +345,7 @@ export const site = {
      * Max number of authors shown before "and N more..." link.
      * Set to undefined to always show all authors.
      */
-    maxAuthorLimit: 3 as number | undefined,
+    maxAuthorLimit: undefined as number | undefined,
     /** Enable thumbnail images for publications (if `preview` set in BibTeX). */
     thumbnails: true,
     /**
@@ -358,7 +353,7 @@ export const site = {
      * Defaults to the last word of `site.author.name` when not set.
      * Override explicitly if your publications use a different name form.
      */
-    authorLastName: undefined as string | undefined,
+    authorLastName: 'Wang',
     /** Path prefix (relative to public/) for publication preview images. */
     previewDir: '/assets/img/publication_preview/',
     /** Path prefix (relative to public/) for publication PDFs and supplements. */
@@ -408,11 +403,11 @@ export const site = {
   pages: {
     projects: {
       /** Description shown below the "projects" heading on the projects page. */
-      description: 'A growing collection of your cool projects.',
+      description: 'Research projects in network optimization and distributed AI systems.',
     },
     teaching: {
       /** Description shown below the "teaching" heading on the teaching page. */
-      description: 'Course materials, schedules, and resources for classes taught.',
+      description: 'Teaching experience at Georgia State University.',
     },
   },
 
